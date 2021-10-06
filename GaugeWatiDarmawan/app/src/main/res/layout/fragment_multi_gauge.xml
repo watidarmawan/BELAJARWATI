@@ -1,0 +1,58 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.gauge.MultiGaugeFragment">
+
+< com.ekn.gruzer.gaugelibrary.MultiGauge
+    android:id= "@+1d/multiGauge"
+    android:layout_width="358dp"
+    android:layout_height="264dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintEnd_toEnd0f="parent"
+    app:layout_constraintStart_toStart0f="parent"
+    app:layout_constarintTop_toTopOf="parent" />
+
+<EditTeks
+
+    android:id="@+id/multi-gauge_value1_ed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="32dp"
+    android:Layout.marginStart="8dp"
+    android:ems="10"
+    android:hint="Value 1"
+    android:inputType="numberDecimal"
+    app:layout_constraintstart_toStartOT="parent"
+
+<EditText
+    android:id="@+id/multi.gauge_value2_ ed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:1ayout_marginTop="8dp"
+    android:ems="10"
+    android:hint="Value 2"
+    android:inputType="numberDecimal"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottom0f="@+1d/multi_gauge_value1_ed"
+<EditText
+        android:id="G+id/multi_gauge_value3_ed"
+        android:layout_width="wrap_content"
+        android:layout_neight="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginTop="10"
+        android:hint="Value 3"
+        android:inputTyipe="numberDesimal"
+        app:layout_contraintStrat_toStartOf="parent"
+        app:layout_constraintTop_toBottonOf="@+id/multi_gauge_value_2_ed"
+
+</androidx.constraintlayout.widget.ConstraintLayout>
